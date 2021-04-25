@@ -1,0 +1,191 @@
+    *,
+    *:before,
+    *:after{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    } 
+
+    body{
+        background-color: beige;
+        height: 100vh;
+        /* font-family: 'Merriweather', serif; */
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .container{
+        width:1031px;
+        margin: 0 auto;
+    }
+
+    header{
+        background-color:#121619;
+        color: #FFD;
+        display: flex;
+        justify-content: space-between; 
+        /* height:172px; */
+        text-transform: uppercase;
+        padding: 0 55px;
+    }
+
+    .left-head{
+        padding-top:33px;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 65px;
+        padding-bottom: 55px;
+    }
+
+    #mobile{
+        font-size: 28px;
+        padding-right: 24px;;
+    }
+
+    .middle-head{
+         padding-top:36px;
+         flex:1;
+         display:flex;
+         flex-direction: column;
+         align-items: center;
+         letter-spacing: .2em;
+    }
+
+    .logo-name{
+        text-align: center;
+    }
+
+    .pizza{
+         font-size: 10px;
+    }
+
+    .vincent{
+        font-size: 18px;
+        letter-spacing: .3em;
+    }
+
+   
+    span {
+         content: "\2192";
+    }
+
+    .year{
+        font-size: 8px;
+    }
+
+    .family-pizzaria{
+        font-size: 10px;
+    }
+
+    .nav-bar{
+         padding-top: 35px;
+         padding-bottom: 36px;
+    }
+
+    .nav{
+        list-style-type: none;
+        display: inline;
+        font-size: 12px;
+        margin-left: 20px;
+        padding-bottom: 38px;
+    }
+
+    .right-head{
+        padding-top:65px;
+        font-size: 11px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 55px;
+    }
+
+    #cart{
+        font-size: 25px;
+        padding-right: 24px;;
+    }
+
+    .main{
+        background-image:url(images/pizza1.jpg);
+        background-repeat: no-repeat;
+        height: 600px;
+        background-position: center center;
+        background-size: cover;
+        text-transform: uppercase;
+        color: #FFF;
+        position: relative;
+    }
+
+     .main-contents{
+        right: 181px;
+        top: 156px;
+        position: absolute;
+    }
+
+    .slider-title{
+        font-size: 30px;
+        letter-spacing: .3em;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .slider-subtitle{
+        font-size: 15px;
+        letter-spacing: .3em;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: lighter;
+   }
+
+    hr{
+        border-top-width: 1px solid #000;
+        width: 80%;
+        margin: 10px 0 30px 0;
+   }
+
+    .slider-description{
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        font-size: 14px;
+   }
+
+    button{
+        border:1px solid #fff;
+        background-color: transparent;
+        outline: none;
+        padding:8px;
+        color: #fff;
+        font-size: 10px;
+        margin-left:5px;
+        text-transform: uppercase;
+   }
+
+    button:active,
+    button:hover{
+        background-color: #F6C866;
+        color: #000;
+        transition-delay: 1sec;
+   }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #E5B95E;
+        height:165px;
+        padding: 70px 210px 0 210px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: lighter;
+        font-size: 13px;
+        color:#FFD;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+   }
+
+    .quality-food,
+    .fastest-delivery,
+    .original-recipes{
+        text-align: center;  
+   }
+
+    .quality-food-text,
+    .fastest-delivery-text,
+    .original-recipes-text{
+        padding-top:20px;
+        padding-right:32px;
+    }
